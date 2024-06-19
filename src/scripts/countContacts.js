@@ -1,5 +1,8 @@
-import { PATH_DB } from '../constants/contacts.js';
-
-export const countContacts = async () => {};
+import { getAllContacts } from './getAllContacts.js';
+export const countContacts = async () => {
+  const arrContact = await getAllContacts();
+  const countContact = arrContact.length;
+  return countContact;
+};
 
 console.log(await countContacts());

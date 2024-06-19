@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "1733d5d9-6474-449f-b804-7a25c90d6bd3",
+    "name": "Francis Mraz",
+    "phone": "665-249-5681",
+    "email": "Eliezer.Romaguera@gmail.com",
+    "job": "Customer Directives Facilitator"
+  },
+  {
+    "id": "13f656af-c6cd-4df1-8fd0-4af5968900b5",
+    "name": "Lela Murazik",
+    "phone": "429.573.5892 x00860",
+    "email": "Angus0@yahoo.com",
+    "job": "Product Paradigm Manager"
+  },
+  {
+    "id": "78beecfe-5498-452b-b839-3311b263fea0",
+    "name": "Donnie Hermann-Bashirian",
+    "phone": "(484) 235-7310 x4947",
+    "email": "Hollie37@gmail.com",
+    "job": "Senior Paradigm Officer"
+  },
+  {
+    "id": "53e94edb-3571-47ac-a6bf-b8fd41ff51e4",
+    "name": "Warren Mohr",
+    "phone": "1-367-708-1319 x28897",
+    "email": "Emily.Zulauf99@gmail.com",
+    "job": "Regional Quality Coordinator"
+  },
+  {
+    "id": "ed987314-1fd9-46ab-9aab-76b9b85d6a77",
+    "name": "Abel Bahringer III",
+    "phone": "(271) 796-6190 x280",
+    "email": "Jordon92@yahoo.com",
+    "job": "Regional Directives Coordinator"
+  }
+]
