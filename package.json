@@ -1,23 +1,29 @@
 {
-  "name": "goit-node-js",
+  "name": "nodejs-hw-mongodb",
   "version": "1.0.0",
   "description": "goit-node-js",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "get-all": "node src/scripts/getAllContacts",
-    "generate": "node src/scripts/generateContacts.js",
-    "add-one": "node src/scripts/addOneContact.js",
-    "count": "node src/scripts/countContacts.js",
-    "remove-last": "node src/scripts/removeLastContact.js",
-    "remove-all": "node src/scripts/removeAllContacts.js"
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olya Iarova <domaschuk.olya@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.2.0",
     "eslint": "^9.2.0",
-    "globals": "^15.1.0"
+    "globals": "^15.1.0",
+    "nodemon": "^3.1.4",
+    "pino-pretty": "^11.2.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "pino-http": "^10.2.0"
   }
 }
