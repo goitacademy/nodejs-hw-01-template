@@ -1,18 +1,17 @@
-import { PATH_DB } from '../constants/contacts.js';
-import fs from 'fs/promises';
 import { createFakeContact } from '../utils/createFakeContact.js';
+import { readContacts } from '../utils/readContacts.js';
+import { writeContacts } from '../utils/writeContacts.js';
 
 export const addOneContact = async () => {
   try {
-    const data = await fs.readFile(PATH_DB);
+    const data = await readContacts();
     const contacts = JSON.parse(data);
     const fakeContact = createFakeContact();
-    contacts.push(fakeContact);
-    const contactsStringify = JSON.stringify(contacts, null, 2);
-    fs.writeFile(PATH_DB, contactsStringify);
-  } catch (error) {
+    const dataContacts = [...contacts, fakeContact];
+    await writeContacts(JSON.stringify(dataContacts));
+    } catch (error) {
     console.log(error);
   }
 };
 
-await addOneContact();
+addOneContact();
