@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "72e1596c-faec-4621-88d8-bf88e7f59d69",
+    "name": "Pamela O'Conner",
+    "phone": "(994) 448-3193 x40784",
+    "email": "Fletcher53@gmail.com",
+    "job": "International Paradigm Specialist"
+  },
+  {
+    "id": "6ea3999d-6a9c-4ff3-8bc1-552334aa6fda",
+    "name": "Kallie Kris V",
+    "phone": "895-256-2794 x8943",
+    "email": "Lou2@hotmail.com",
+    "job": "National Mobility Officer"
+  },
+  {
+    "id": "8f412cfd-7d00-410f-a81e-91bdde835e9b",
+    "name": "Madge Borer",
+    "phone": "255.509.8756",
+    "email": "Gisselle51@gmail.com",
+    "job": "Corporate Tactics Executive"
+  },
+  {
+    "id": "6cfb06bf-6816-4ea2-8301-a5d58f6e538c",
+    "name": "Michele Okuneva",
+    "phone": "1-926-545-0087 x4788",
+    "email": "Loren.Shanahan11@hotmail.com",
+    "job": "Human Division Executive"
+  }
+]

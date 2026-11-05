@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "node src/index.js",
     "get-all": "node src/scripts/getAllContacts",
     "generate": "node src/scripts/generateContacts.js",
     "add-one": "node src/scripts/addOneContact.js",
@@ -17,7 +18,16 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.2.0",
+    "@faker-js/faker": "^10.6.0",
     "eslint": "^9.2.0",
-    "globals": "^15.1.0"
+    "globals": "^15.1.0",
+    "pino-pretty": "^13.2.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.0",
+    "pino-http": "^11.0.0"
   }
 }
